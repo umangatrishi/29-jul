@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int R1,R2,R3;
+	    cin>>R1>>R2>>R3;
+	    if(R1>R2+R3)
+	    std::cout << "YES" << std::endl;
+	     else if(R2>R1+R3)
+	    std::cout << "YES" << std::endl;
+	     else if(R3>R2+R1)
+	    std::cout << "YES" << std::endl;
+	    else 
+	    std::cout << "NO" << std::endl;
+	}
+
+}
