@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int judged[5];
+	    for(int i=0;i<5;++i){
+	        cin>>judged[i];
+	    }
+	    int liked=0;
+	    for(int i=0;i<5;++i){
+	        liked+=judged[i];
+	    }
+	    if(liked>=4)
+	    std::cout << "yes" << std::endl;
+	    else
+	    std::cout << "no" << std::endl;
+	}
+
+}
