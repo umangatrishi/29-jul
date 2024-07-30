@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int P,Q,R,S;
+	    cin>>P>>Q>>R>>S;
+	    if(P>Q+R+S)
+	    std::cout << "yes" << std::endl;
+	    else if(Q>P+R+S)
+	    std::cout << "yes" << std::endl;
+	    else if(R>Q+P+S)
+	    std::cout << "yes" << std::endl;
+	    else if(S>Q+R+P)
+	    std::cout << "yes" << std::endl;
+	    else
+	    cout<<"NO"<<endl;
+	}
+
+}
+Monopoly
